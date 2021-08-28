@@ -1,7 +1,7 @@
 version: '3'
 services:
     ora2pg_service:
-        image: node_custom_image
+        image: ora2pg_image
         build:
             context: .
         container_name: ora2pg
