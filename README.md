@@ -13,3 +13,12 @@ Follow below steps to connect to container:-
 
 1. `ora2pg` is the container name. Replace it in next step.
 2. `docker exec -it <container ID/name> bash`
+
+## Pull image from docker hub
+
+This docker image is also available on docker hub and can be pulled using below steps:-
+
+1. Run `docker pull kathuriaas/dockerize-ora2pg`
+2. Now, start container in background with interactive mode using command `docker run -itd --name ora2pg_container kathuriaas/dockerize-ora2pg`
+3. Connect to container using command `docker exec -it ora2pg_container bash`
+4. Now, container is ready to use for ora2pg
