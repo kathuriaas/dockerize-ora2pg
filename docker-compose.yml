@@ -1,0 +1,8 @@
+version: '3'
+services:
+    ora2pg_service:
+        image: ora2pg_image
+        build:
+            context: .
+        container_name: ora2pg
+        tty: true
